@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELA</title>
+    <link rel="shortcut icon" href="images/favi.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <script src="https://kit.fontawesome.com/93cef6c672.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div id="wrap" class="content">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/bg1_1.jpg" alt="img"></div>
+            <div class="swiper-slide"><img src="images/bg2_1.jpg" alt="img"></div>
+            <div class="swiper-slide"><img src="images/bg.jpg" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            });
+        </script>
+        <header id="top">
+            <div class="left_wrap">
+                <h1><a href="index.html"><img src="images/logo.png" alt="HELA" width="150"></a></h1>
+                <nav id="gnb">
+                    <ul>
+                        <li><a href="#HOME">HOME</a></li>
+                        <li><a href="#PRODUCT">PRODUCT</a></li>
+                        <li><a href="#LOOKBOOK">LOOKBOOK</a></li>
+                        <li><a href="#COLLECTION">COLLECTION</a></li>
+                        <li><a href="#CUSTOMER">STORY</a></li>
+                    </ul>
+                </nav><!-- gnb -->
+            </div><!-- left_wrap -->
+            <ul class="quick_menu">
+                <li><a href="#"><i class="fas fa-search"></i></a></li>
+                <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+                <li class="menu"><a href="#"><i class="fas fa-bars"></i></a></li>
+            </ul><!-- quick_menu -->
+            <div class="menu_wrap">
+                <ul class="m_gnb">
+                    <li><a href="#HOME">HOME</a></li>
+                    <li><a href="#PRODUCT">PRODUCT</a>
+                        <ul class="submenu">
+                            <li><a href="#">NEW</a></li>
+                            <li><a href="#">라인별 모아보기</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#LOOKBOOK">LOOKBOOK</a></li>
+                    <li><a href="#COLLECTION">COLLECTION</a>
+                        <ul class="submenu">
+                            <li><a href="#">아르테</a></li>
+                            <li><a href="#">비비</a></li>
+                            <li><a href="#">시그니처 엔젤</a></li>
+                            <li><a href="#">디어 : 플로르</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#STORY">STORY</a></li>
+                </ul><!-- m_gnb -->
+                <p class="close"><a href="#"><i class="far fa-times-circle"></i></a></p>
+            </div><!-- menu_wrap -->
+        </header><!-- top -->
+    </div><!-- wrap -->
+
+    <section id="PRODUCT" class="content">
+        <div class="top_txt">
+            <h2>' Your Blooming Moment '</h2>
+            <p class="sub_txt">당신이 가장 아름답게 피어나는 순간, 헬라가 함께 합니다. </p>
+            <p class="more"><a href="#">View More</a></p>
+        </div><!-- top_txt -->
+        
+        <div class="pro_item col_item">
+            <div class="left_item">
+                <img src="images/12.jpg" alt="pro">
+            </div><!-- left_item -->
+            <div class="right_item">
+                <figure>
+                    <img src="images/4.jpg" alt="pro">
+                    <figcaption>
+                        <span>Anger - White</span>
+                        <span>112,000원</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/9.jpg" alt="pro">
+                    <figcaption>
+                        <span>Anger - Black</span>
+                        <span>112,000원</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/3.jpg" alt="pro">
+                    <figcaption>
+                        <span>Anger - Rosewood</span>
+                        <span>112,000원</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/11.jpg" alt="pro">
+                    <figcaption>
+                        <span>Anger - Burgundy</span>
+                        <span>112,000원</span>
+                    </figcaption>
+                </figure>
+            </div><!-- right_item -->
+        </div><!-- pro_item -->
+    </section><!-- PRODUCT -->
+    <section id="LOOKBOOK" class="content">
+        <div class="top_txt">
+            <h2>LOOKBOOK</h2>
+            <p class="sub_txt">당신이 있는 곳 언제 어디서나. </p>
+            <p class="more"><a href="#">View More</a></p>
+        </div><!-- top_txt -->
+        <div class="gift_item col_item">
+            <a href="#">
+                <img src="images/item1_1.jpg" alt="pro">
+            </a>
+            <a href="#">
+                <img src="images/13.jpg" alt="pro">
+            </a>
+            <a href="#">
+                <img src="images/item2_1.jpg" alt="pro">
+            </a>
+            <a href="#">
+                <img src="images/item6_1.jpg" alt="pro">
+            </a>
+        </div><!-- gift_item -->
+    </section><!-- GIFT -->
+
+    <section id="COLLECTION" class="content">
+        <div class="top_txt">
+            <h2>ARTE COLLECTION</h2>
+            <p class="sub_txt">영원한 젊음의 여신 아르테미스를 재해석한 아르테</p>
+            <p class="more"><a href="#">View More</a></p>
+        </div><!-- top_txt -->
+        <div class="new_item col_item">
+            <figure>
+                <img src="images/1.jpg" alt="pro">
+                <figcaption>Arte - White</figcaption>
+            </figure>
+            <figure>
+                <img src="images/2.jpg" alt="pro">
+                <figcaption>Arte - Khaki</figcaption>
+            </figure>
+            <figure>
+                <img src="images/5.jpg" alt="pro">
+                <figcaption>Arte - Dustyrose</figcaption>
+            </figure>
+            <figure>
+                <img src="images/6.jpg" alt="pro">
+                <figcaption>Arte - Lilac</figcaption>
+            </figure>
+        </div><!-- new_item -->
+    </section><!-- NEW -->
+
+    <section id="STORY" class="content">
+        <div class="top_txt">
+            <h2>STORY</h2>
+            <p class="sub_txt">당신이 더욱 특별하고 싶은 날,<br>'한 명의 주인공으로'</p>
+            <p class="more"><a href="#">View More</a></p>
+        </div><!-- top_txt -->
+        <div class="event_item col_item">
+            <a href="#">
+                <img src="images/item3_1.jpg" alt="pro">
+            </a>
+            <a href="#">
+                <img src="images/item5_1.jpg" alt="pro">
+            </a>
+        </div><!-- event_item -->
+    </section><!-- EVENT -->
+
+    <footer id="bottom">
+        <div class="bot_left">
+            <ul class="fnb">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">사업자정보확인</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+            </ul><!-- fnb -->
+            <p class="copyright">&copy; HELA 헬라. ALL RIGHTS RESERVED.</p>
+        </div><!-- bot_left -->
+        <ul class="sns">
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul><!-- sns -->
+    </footer><!-- bottom -->
+
+    <p class="totop"><a href="#wrap"><i class="far fas fa-caret-square-up"></i></a></p>
+</body>
+</html>
